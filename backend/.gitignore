@@ -1,0 +1,67 @@
+# Python
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+env/
+venv/
+ENV/
+VENV/
+*.env
+*.venv
+.Python
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+instance/
+config/settings/local.py
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pipenv
+Pipfile.lock
+
+# dotenv
+.env
+.env.*
+
+# Migrations (optional — keep only if you auto-generate)
+*/migrations/.py
+*/migrations/.pyc
+!*/migrations/_init_.py
+
+# Node (if using npm or yarn for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Compiled files
+*.swp
+*.swo
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+
+# Test cache
+.pytest_cache/
